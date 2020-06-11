@@ -6,7 +6,8 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "build": "npx grunt"
+    "build": "npx grunt",
+    "prepare" : "npm run build"
   },
   "files": [
     "lib/**/*"
