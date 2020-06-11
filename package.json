@@ -1,6 +1,6 @@
 {
   "name": "smartme-protobuf-parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parser in node.js for the smart.me protobuf protocol",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
