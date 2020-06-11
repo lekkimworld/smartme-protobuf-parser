@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url":_"git+https://github.com/lekkimworld/smartme-protobuf-parser.git"
+    "url": "git+https://github.com/lekkimworld/smartme-protobuf-parser.git"
   },
   "keywords": [
     "protobuf",
