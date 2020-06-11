@@ -10,7 +10,8 @@
     "prepare": "npm run build"
   },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "smartme.proto"
   ],
   "repository": {
     "type": "git",
