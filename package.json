@@ -1,0 +1,36 @@
+{
+  "name": "smartme-protobuf-parser",
+  "version": "0.0.1",
+  "description": "Parser in node.js for the smart.me protobuf protocol",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "npx grunt"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url":_"git+https://github.com/lekkimworld/smartme-protobuf-parser.git"
+  },
+  "keywords": [
+    "protobuf",
+    "smartme",
+    "iot",
+    "nodejs"
+  ],
+  "author": "Mikkel Flindt Heisterberg",
+  "license": "MIT",
+  "dependencies": {
+    "long": "^4.0.0",
+    "protobufjs": "^6.9.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-ts": "^6.0.0-beta.22",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
