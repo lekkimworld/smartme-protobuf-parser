@@ -11,8 +11,8 @@ module.exports = function(grunt) {
             }
         }
     });
-
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks("grunt-ts");
 
-    grunt.registerTask('default', ["ts"]);
+    grunt.registerTask('default', ["clean", "ts"]);
 };
